@@ -1,0 +1,694 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+p {
+  background-color: green;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+#wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.header {
+  height: 90px;
+}
+
+.header-text {
+  font-size: 12px;
+}
+
+.call-us {
+  font-size: 14px;
+}
+
+.logo {
+  float: left;
+  width: 42%;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.header-right-pan {
+  float: right;
+  width: 58%;
+  margin-top: 30px;
+}
+
+.align-header-icon {
+  margin-right: 18px;
+  margin-top: 6px;
+}
+
+.align-line-hight {
+  margin-top: 8px;
+}
+
+.header-col-1 {
+  margin-right: 33px;
+}
+
+.header-col-2 {
+  margin-right: 33px;
+}
+
+.main-menu {
+  background-color: #000;
+  height: 42px;
+}
+
+/** NAVIGATION BAR */
+nav {
+  overflow: hidden;
+  position: relative;
+  top: 0;
+  margin: 0 auto;
+}
+nav ul {
+  text-align: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 11px;
+}
+nav ul li {
+  display: inline;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+nav ul li a {
+  color: #f2f2f2;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 14px;
+}
+nav ul li a:hover {
+  background-color: #a0cd4e;
+}
+
+.margin-whyus-icon {
+  width: 84%;
+  margin-left: 15px;
+}
+
+.icon-color {
+  color: #a0cd4e;
+}
+
+.service-box {
+  width: 225px;
+  height: 132px;
+  border: 1px solid #ededed;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.margin-service-box {
+  padding: 18px;
+  text-decoration: none;
+}
+
+.service-box-whyus {
+  width: 262px;
+  height: 69px;
+  margin-right: 26px;
+  margin-bottom: 26px;
+}
+
+.align-farm {
+  width: 550px;
+  padding-left: 35px;
+  padding-top: 30px;
+  padding-right: 35px;
+}
+
+.chartered, .uk-european {
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+}
+
+.uk-european {
+  margin-top: 22px;
+}
+
+.margin-whyus-box {
+  padding: 18px;
+  text-decoration: none;
+  background-color: #555555;
+}
+
+.company-formation {
+  font-size: 16px;
+  color: #333333;
+}
+
+.whyus-title {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.service-description {
+  font-size: 14px;
+  color: #999999;
+  padding-top: 18px;
+}
+
+.whyus-description {
+  font-size: 14px;
+  color: #cccccc;
+  padding-top: 18px;
+}
+
+.margin-os-icon {
+  margin-right: 15px;
+  color: #333333;
+}
+
+.fa-university {
+  font-size: 25px !important;
+}
+
+.margin-our-service {
+  margin-bottom: 45px;
+}
+
+a.margin-service-box:hover {
+  background-color: #a0cd4e;
+}
+a.margin-service-box:hover .company-formation {
+  color: #fff;
+}
+a.margin-service-box:hover .service-description {
+  color: #333333;
+}
+
+a.margin-whyus-box:hover {
+  background-color: #a0cd4e;
+}
+a.margin-whyus-box:hover .whyus-title {
+  color: #333333;
+}
+a.margin-whyus-box:hover .whyus-description {
+  color: #333333;
+}
+a.margin-whyus-box:hover .icon-color {
+  color: #333333;
+}
+
+.floating-bar {
+  height: 150px;
+  width: 32px;
+  background-color: #a0cd4e;
+  position: fixed;
+  left: calc(100% - 32px);
+  top: 250px;
+}
+
+.work-feature-box {
+  width: 404px;
+  height: 120px;
+  margin-right: 42px;
+  margin-bottom: 30px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.why-us {
+  height: 650px;
+  background-color: #000;
+}
+
+.firm-in-india {
+  height: 460px;
+  background-color: #a0cd4e;
+}
+
+.client-testimonial {
+  height: 622px;
+  background-color: #f5f5f5;
+}
+
+.certifications {
+  height: 140px;
+  padding-top: 60px;
+}
+
+.ul-farm {
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  padding-left: 17px;
+}
+
+/* FOOTER CLASSES */
+.footer-row-1 {
+  height: 282px;
+  background-color: #333333;
+  padding-top: 42px;
+}
+
+.footer-row-2 {
+  height: 60px;
+  background-color: #000;
+  color: #fff;
+}
+
+.about-us {
+  width: 45%;
+  text-align: left;
+  margin-right: 30px;
+  font-size: 14px;
+  color: #eeeeee;
+  line-height: 1.5;
+}
+
+.quick-links {
+  width: 15%;
+  text-align: left;
+  margin-right: 30px;
+  color: #fff;
+}
+
+.contact-us {
+  width: 30%;
+  text-align: left;
+  color: #fff;
+}
+
+.copyrights {
+  color: #cccccc;
+  font-size: 13px;
+}
+
+.align-copyrights-msg {
+  padding-top: 23px;
+}
+
+.footer-col-header {
+  color: #a0cd4e;
+  font-size: 20px;
+}
+
+.foo-bar {
+  background-color: #a0cd4e;
+  height: 1px;
+  width: 25px;
+  margin-top: 8px;
+  margin-bottom: 22px;
+}
+
+.align-social-icons {
+  margin-top: 14px;
+}
+
+.foo-contact-us {
+  font-size: 14px;
+  color: #cccccc;
+  margin-top: 10px;
+}
+
+.foo-company-name {
+  font-size: 16px;
+  color: #fff;
+}
+
+.foo-contact-us a {
+  text-decoration: none;
+  color: #cccccc;
+  cursor: pointer;
+}
+
+/* SOCIAL MEDIA */
+.fb-circle {
+  width: 32px;
+  height: 24px;
+  text-align: center;
+  padding-top: 8px;
+  margin-right: 18px;
+  cursor: pointer;
+  background: #3b5998;
+  border-radius: 50px;
+}
+
+.tw-circle {
+  width: 32px;
+  height: 24px;
+  text-align: center;
+  padding-top: 8px;
+  margin-right: 18px;
+  cursor: pointer;
+  background: #55acee;
+  border-radius: 50px;
+}
+
+.gp-circle {
+  width: 32px;
+  height: 24px;
+  text-align: center;
+  padding-top: 8px;
+  margin-right: 18px;
+  cursor: pointer;
+  background: #dc4e41;
+  border-radius: 50px;
+}
+
+.ln-circle {
+  width: 32px;
+  height: 24px;
+  text-align: center;
+  padding-top: 8px;
+  cursor: pointer;
+  background: #0e76a8;
+  border-radius: 50px;
+}
+
+.quick-links ul {
+  padding-left: 0px;
+  margin-left: 11px;
+}
+.quick-links ul li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.align-quick-links {
+  margin-left: 10px;
+  font-size: 14px;
+}
+.align-quick-links a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* CREATING ARROW */
+.arrow {
+  border: 1px solid white;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 5px;
+}
+
+.align-arrow {
+  margin-left: -85px;
+}
+
+.align-arrow-careers {
+  margin-left: -58px;
+}
+
+.align-arrow-contact-us {
+  margin-left: -78px;
+}
+
+.arrow-bar {
+  height: 1px;
+  background-color: white;
+  position: relative;
+  top: 9px;
+  width: 22px;
+  left: -10px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.certifications-associations {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  width: 260px;
+  text-align: left;
+}
+
+.extra-padding {
+  margin-right: 50px;
+}
+
+.margin-certifications {
+  margin-top: 14px;
+}
+
+.margin-pcaob {
+  margin-top: -4px;
+}
+
+.margin-tiag {
+  margin-top: 2px;
+}
+
+.testimonial {
+  width: 360px;
+  height: 290px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 1px 2px 2px #dfdfdf;
+}
+
+.margin-testimonial {
+  margin-right: 29px;
+}
+
+.margin-testimonials {
+  padding-top: 131px;
+}
+
+.circular-img {
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+}
+
+.align-testimonial-image {
+  position: absolute;
+  margin-top: -60px;
+  margin-left: 114px;
+}
+
+.testimonial-description {
+  margin-top: 85px;
+  text-align: center;
+  font-size: 15px;
+  padding-left: 27px;
+  padding-right: 27px;
+  color: #666666;
+}
+
+.designation {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 8px;
+  color: #999999;
+}
+
+.testimonial-by {
+  margin-top: 22px;
+  text-align: center;
+  color: #a0cd4e;
+}
+
+.client-says {
+  padding-top: 60px;
+  text-align: left;
+}
+
+.lbl-client-says {
+  font-size: 16px;
+  color: #999999;
+  font-family: "Raleway", sans-serif;
+}
+
+.lbl-whyus {
+  font-size: 16px;
+  color: #a0cd4e;
+  font-family: "Raleway", sans-serif;
+  padding-top: 6px;
+}
+
+.lbl-client-testimonial {
+  font-size: 30px;
+  color: #333333;
+  font-family: "Raleway", sans-serif;
+}
+
+.lbl-workfeature {
+  font-size: 30px;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  padding-top: 20px;
+}
+
+.vertical-ln {
+  height: 49px;
+  border: 1px solid #a0cd4e;
+  margin-top: 3px;
+}
+
+.vertical-ln-whyus {
+  height: 112px;
+  border: 1px solid #a0cd4e;
+  margin-top: 3px;
+}
+
+.margin-vertical-ln {
+  margin-left: 3px;
+  margin-right: 30px;
+}
+
+.img-bulv {
+  width: 899px;
+  height: 460px;
+  background: url(images/bulv.jpg) no-repeat;
+}
+
+.margin-workfeature {
+  margin-bottom: 50px;
+}
+
+.margin-whyus {
+  margin-bottom: 50px;
+}
+
+.img-whyus {
+  position: absolute;
+  z-index: 999;
+}
+
+.img-whyusbg {
+  position: absolute;
+}
+
+.margin-wf-icon {
+  margin-left: 20px;
+}
+
+.business-consulting {
+  font-size: 18px;
+  color: #333333;
+}
+
+.align-wf-paragraph {
+  margin-bottom: 40px;
+}
+
+.wf-description {
+  color: #999999;
+  font-size: 15px;
+}
+
+.align-wf-woman {
+  margin-top: -40px;
+}
+
+.tick-mark {
+  position: absolute;
+  margin-left: -20px;
+  margin-top: 7px;
+}
+
+.fa-circle-thin {
+  font-size: 30px !important;
+}
+
+#navigation-bar {
+  margin-left: -10px;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 1000px) and (max-width: 1530px) {
+  .client-testimonial {
+    height: 970px;
+  }
+  .testimonial {
+    margin-top: 90px;
+  }
+  .margin-testimonials {
+    padding-top: 20px;
+  }
+  .align-farm {
+    background-color: #a0cd4e;
+    width: 100%;
+  }
+  .why-us {
+    height: 1245px;
+  }
+  .logo {
+    width: 35%;
+  }
+  .header-right-pan {
+    width: 65%;
+  }
+  .certifications {
+    height: 312px;
+  }
+  .footer-row-1 {
+    height: 320px;
+  }
+  .quick-links ul {
+    width: 102px;
+  }
+  .foo-contact-us {
+    width: 242px;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 1000px) {
+  .client-testimonial {
+    height: 1340px;
+  }
+  .testimonial {
+    margin-top: 90px;
+  }
+  .margin-testimonials {
+    padding-top: 20px;
+  }
+  .align-farm {
+    background-color: #a0cd4e;
+    width: 100%;
+  }
+  .why-us {
+    height: 1630px;
+  }
+  .logo {
+    width: 15%;
+  }
+  .header-right-pan {
+    width: 85%;
+  }
+  .certifications {
+    height: 312px;
+  }
+  .footer-row-1 {
+    height: 500px;
+  }
+  .quick-links ul {
+    width: 102px;
+  }
+  .foo-contact-us {
+    width: 242px;
+  }
+}/*# sourceMappingURL=index.css.map */
