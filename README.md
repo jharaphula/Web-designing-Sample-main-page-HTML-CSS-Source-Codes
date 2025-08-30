@@ -30,7 +30,11 @@ By separating content (HTML) from design (CSS), developers can maintain and upda
 
 JavaScript (JS) brings websites to life by enabling dynamic content and interactivity. It allows for real-time updates, form validations, animations, and API integrations without requiring page reloads. Modern web applications rely heavily on JavaScript frameworks like React, Angular, and Vue.js.
 
-Common uses of JavaScript include: - DOM Manipulation: Changing webpage content dynamically. - Event Handling: Responding to user actions (clicks, scrolls). - Asynchronous Requests (AJAX): Fetching data from servers seamlessly.
+Common uses of JavaScript include: 
+
+- DOM Manipulation: Changing webpage content dynamically.
+- Event Handling: Responding to user actions (clicks, scrolls).
+- Asynchronous Requests (AJAX): Fetching data from servers seamlessly.
 
 JavaScript enhances user engagement, making websites more interactive and functional.
 
@@ -38,7 +42,11 @@ JavaScript enhances user engagement, making websites more interactive and functi
 
 PHP is a server-side scripting language used to create dynamic websites. Unlike HTML, CSS, and JavaScript (which run in the browser), PHP executes on the server before sending content to the user. It is commonly used for form processing, user authentication, and database interactions.
 
-Key PHP functionalities: - Form Handling: Processes user-submitted data. - Session Management: Tracks user activity across pages. - Database Integration: Connects to MySQL, PostgreSQL, etc.
+Key PHP functionalities: 
+
+- Form Handling: Processes user-submitted data.
+- Session Management: Tracks user activity across pages.
+- Database Integration: Connects to MySQL, PostgreSQL, etc.
 
 PHP powers content management systems (CMS) like WordPress, making it a vital tool for web developers.
 
@@ -46,7 +54,11 @@ PHP powers content management systems (CMS) like WordPress, making it a vital to
 
 Databases store website data, user information, and dynamic content. MySQL and PostgreSQL are popular relational databases, while MongoDB is a NoSQL alternative. PHP often interacts with databases to retrieve or update information.
 
-Database essentials: - Tables: Organize data into rows and columns. - Queries (SQL): Retrieve or modify data (e.g., `SELECT`, `INSERT`). - Security: Prevents SQL injection through prepared statements.
+Database essentials: 
+
+- Tables: Organize data into rows and columns.
+- Queries (SQL): Retrieve or modify data (e.g., `SELECT`, `INSERT`).
+- Security: Prevents SQL injection through prepared statements.
 
 A well-designed database ensures fast, secure, and scalable data management.
 
@@ -54,7 +66,13 @@ A well-designed database ensures fast, secure, and scalable data management.
 
 Search Engine Optimization (SEO) improves a website’s visibility on search engines like Google. It involves on-page and technical optimizations to attract organic traffic.
 
-Key SEO practices: - Keyword Research: Targeting relevant search terms. - Meta Tags: Optimizing title and description tags. - Mobile-Friendliness: Ensuring responsive design. - Page Speed: Minimizing load times. - Backlinks: Building authority through external links.
+Key SEO practices: 
+
+- Keyword Research: Targeting relevant search terms.
+- Meta Tags: Optimizing title and description tags.
+- Mobile-Friendliness: Ensuring responsive design.
+- Page Speed: Minimizing load times.
+- Backlinks: Building authority through external links.
 
 SEO ensures that a website reaches its intended audience effectively.
 
